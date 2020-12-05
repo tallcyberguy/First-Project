@@ -1,0 +1,10 @@
+import subprocess
+ip = input('enter ip')
+parts = ip.split('.')
+a = '.'
+start = int(input('start num'))
+end = int(input('end num'))
+for x in range(start,end+1):
+    moe = (parts[0]+a+parts[1]+a+parts[2]+a+str(x))
+    subprocess.Popen('ping -n 1 '+moe,text='TTL=')
+ #IP SCANNER 2
