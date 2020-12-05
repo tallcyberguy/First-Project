@@ -1,0 +1,20 @@
+##########################File listing and checking the MD5 hash by Huseyin EKSI##############
+import os
+import hashlib
+def file_as_bytes  (file):
+    with file:
+        return file.read()
+print("Dosyamizin md5 hash degeri:")
+print(hashlib.md5(file_as_bytes(open(r'C:\Samples\deneme.txt.txt', 'rb'))).hexdigest())
+arr5=[]
+listOfFiles = list()
+for (dirpath, dirnames, filenames) in os.walk(r'C:/Samples'):
+    listOfFiles += [os.path.join(dirpath, file) for file in filenames]
+    for elem in listOfFiles:
+        arr5.append(hashlib.md5(file_as_bytes(open(elem,'rb'))).hexdigest())
+print('Belirtilen klasordeki dosyalarin md5  hash degerleri')
+print(arr5)
+index_md5_file = arr5.index('82ebad9a309f26491a6a1a1e3646759b')
+print("dosyamizin indexi:")
+print(index_md5_file)
+print(listOfFiles)
