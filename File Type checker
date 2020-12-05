@@ -1,0 +1,21 @@
+import binascii
+import os
+string = '89504e4'
+string_2 = '507974686F6E2033'
+arr2 = bytes(string, 'ascii')
+arr3 = os.listdir(r"C:\Users\90543\Desktop\denemetaht")
+arr4 = []
+for x in arr3:
+   arr4.append(r"C:\Users\90543\Desktop\denemetaht" +"\\" + x )  //use the path you need//
+print(arr3)
+print(arr4)
+for y in arr4:
+    content = ''
+    content2 = ''
+    with open(file=y,mode='rb') as f:
+        content = f.read().hex()
+        content2 = content
+        if content.startswith(string)==True and content2.startswith(string_2)==False:
+            print("this is a png file "+y)
+        else:
+         print("this is python file"+y)
