@@ -1,0 +1,30 @@
+import glob
+import os
+
+result = []
+count1, count2, count3, count4, count5, count6 = 0,0,0,0,0,0
+for x in os.walk(r'C://'):
+    for y in glob.glob(os.path.join(x[0], '*.exe')):
+        result.append(y)
+        count1 +=1
+    for y in glob.glob(os.path.join(x[0], '*.docx')):
+            result.append(y)
+            count2 += 1
+    for y in glob.glob(os.path.join(x[0], '*.png')):
+        result.append(y)
+        count3 +=1
+    for y in glob.glob(os.path.join(x[0], '*.dll')):
+        result.append(y)
+        count4 +=1
+    for y in glob.glob(os.path.join(x[0], '*.pdf')):
+        result.append(y)
+        count5 +=1
+    for y in glob.glob(os.path.join(x[0], '*.txt')):
+        result.append(y)
+        count6 +=1
+print('*************List of Numbers by extension****************')
+print('Number of exe files are:'+ str(count1))
+print('Number of docx files are:'+ str(count2))
+print('Number of png files are:'+ str(count3))
+print('Number of dll files are:'+ str(count4))
+print('Number of pdf files are:'+ str(count5))
