@@ -3,10 +3,10 @@ import os
 string = '89504e4'
 string_2 = '507974686F6E2033'
 arr2 = bytes(string, 'ascii')
-arr3 = os.listdir(r"C:\Users\90543\Desktop\denemetaht")
+arr3 = os.listdir(r"C:\Users\test\Desktop\denemetaht")
 arr4 = []
 for x in arr3:
-   arr4.append(r"C:\Users\90543\Desktop\denemetaht" +"\\" + x )  //use the path you need//
+   arr4.append(r"C:\Users\test\Desktop\denemetaht" +"\\" + x )  //use the path you need//
 print(arr3)
 print(arr4)
 for y in arr4:
