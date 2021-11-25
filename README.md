@@ -1,5 +1,5 @@
 # Cyber Security HomeLab-Project
-My aim is to imitate as a red teamer and detect as a blue teamer.That's the hall reason for this project.
+My aim is to imitate as a red teamer and detect as a blue teamer.That's the reason for this project.
 I used vmwarepro to set-up my homelab.
 
 Homelab includes:
