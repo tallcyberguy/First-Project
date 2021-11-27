@@ -1,15 +1,16 @@
 # Cyber Security HomeLab-Project
 My aim is to imitate as a red teamer and detect as a blue teamer.That's the reason for this project.
 I used vmwarepro to set-up my homelab.
-
-Homelab includes:
-  1 Kali Linux
-  2 WinServer 2019
-  3 WinClient
-  4 Security Onion
-  5 Metasploitable
-  6 Firewall (Pfsense)
-
+Homelab includes:[
+   Kali Linux
+   WinServer 2019
+   WinClient
+   Security Onion
+   Metasploitable
+   Firewall (Pfsense)
+   Active Directory
+   Group policies etc
+]
 
 
 
