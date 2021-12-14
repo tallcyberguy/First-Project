@@ -18,6 +18,8 @@ Firstly I followed the cyberwoxacademys instructions to set-up the firewall for 
 -Downloaded PFSense iso from https://www.pfsense.org/download/
 -Created virtual machine for PFSense and configured it according to the instructions.
 -Downloaded Security Onion from https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md
+-Installed SecOnion
+
 
 
 Also ı wanna add a load balancer, WAF,open-source EDR
