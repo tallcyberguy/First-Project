@@ -1,7 +1,7 @@
 # Cyber Security HomeLab-Project
 My aim is to imitate as a red teamer and detect as a blue teamer.That's the reason for this project.
 I used vmwarepro to set-up my homelab.
-Homelab includes:[
+Homelab includes:
    Kali Linux
    WinServer 2019
    WinClient
@@ -10,7 +10,7 @@ Homelab includes:[
    Firewall (Pfsense)
    Active Directory
    Group policies etc
-]
+
 
 Start of the project
 
