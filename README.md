@@ -3,23 +3,23 @@ My aim is to imitate as a red teamer and detect as a blue teamer.That's the reas
 I used vmwarepro to set-up my homelab.
 Homelab includes:
    Kali Linux /n
-   WinServer 2019
-   WinClient
-   Security Onion
-   Metasploitable
-   Firewall (Pfsense)
-   Active Directory
-   Group policies etc
+   WinServer 2019 /n
+   WinClient /n
+   Security Onion /n
+   Metasploitable /n
+   Firewall (Pfsense) /n
+   Active Directory /n
+   Group policies etc /n
 
 
 Start of the project
 
 Firstly I followed the cyberwoxacademys instructions to set-up the firewall for my homelab.
--Downloaded PFSense iso from https://www.pfsense.org/download/
--Created virtual machine for PFSense and configured it according to the instructions.
--Downloaded Security Onion from https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md
--Installed SecOnion
--Set up an ubuntu machine to use SecOnion tools as an Analyst does.
+-Downloaded PFSense iso from https://www.pfsense.org/download/ /n
+-Created virtual machine for PFSense and configured it according to the instructions. /n
+-Downloaded Security Onion from https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md /n
+-Installed SecOnion /n
+-Set up an ubuntu machine to use SecOnion tools as an Analyst does. /n
 
 
 
